@@ -172,3 +172,9 @@ cython_debug/
 
 # Testing files in data directory
 data/*
+
+# Testing runs
+runs/*
+
+# Models
+models/*
