@@ -1,0 +1,12 @@
+dill
+from-root
+ipython
+ipykernel
+gdown
+flask-cors
+flask
+pandas
+matplotlib
+python-dotenv
+ultralytics
+cvzone
