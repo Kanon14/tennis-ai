@@ -178,3 +178,6 @@ runs/*
 
 # Models
 models/*
+
+# Output videos
+output_videos/*
