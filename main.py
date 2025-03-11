@@ -47,7 +47,9 @@ def main():
     
     # Draw mini court
     output_video_frames = mini_court.draw_mini_court(output_video_frames)
-    
+    output_video_frames = mini_court.draw_points_on_mini_court(output_video_frames, player_mini_court_detections)
+    output_video_frames = mini_court.draw_points_on_mini_court(output_video_frames, ball_mini_court_detections)
+
     # Draw frame number on top left corner
     for i, frame in enumerate(output_video_frames):
         cv2.putText(frame, f"Frame {i+1}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 2)
