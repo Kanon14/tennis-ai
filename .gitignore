@@ -181,3 +181,4 @@ models/*
 
 # Output videos
 output_videos/*
+.qodo
